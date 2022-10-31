@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-size: 24px;
+    background: url(./images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Caveat', cursive;
+    min-height: 100vh;
+    justify-content: space-between;
+    overflow: hidden;
+    flex-wrap: nowrap;
+}
+
+.navbar {
+    width: 100vw;
+    display: flex;
+    background-color: #555;
+    opacity: .6;
+    justify-content: space-between;
+  }
+
+  .navbar a {
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    width: 25vw;
+    text-align: center;
+  }
+
+h1 {
+    display: flex;
+    color: yellow;
+    font-size: 8em;
+}
+
+  footer {
+    display: flex;
+    background-color: black;
+    opacity: .3;
+    color: white;
+    margin-top: auto;
+    margin-bottom: 30px;
+  }
+
+  .navbar a:hover {
+    background-color: #000;
+    color:rgb(255, 255, 255);
+  }
+
+  .navbar a.active {
+    background-color: #d8a245;
+  }
+
+  h1:hover:before {
+    text-transform: uppercase;
+    content: 'Devmountain';
+  }
